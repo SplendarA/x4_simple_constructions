@@ -93,9 +93,9 @@ class blocks:
                 tmp_cent_loc['y'] = -7200
 
                 tmp_inner_loc = {'row': row, 'col': col, 'layer': tmp_layer}
-        self.dock_blocks.append(self.gen_block(type=tmp_type, cent_loc=tmp_cent_loc,
-                                               rotation=tmp_rotation,
-                                               inner_loc=tmp_inner_loc))
+                self.dock_blocks.append(self.gen_block(type=tmp_type, cent_loc=tmp_cent_loc,
+                                                       rotation=tmp_rotation,
+                                                       inner_loc=tmp_inner_loc))
 
         # 初始化xl模块
         tmp_type = 'xl'
